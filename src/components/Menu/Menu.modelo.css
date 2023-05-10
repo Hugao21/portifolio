@@ -1,0 +1,47 @@
+.logo
+{
+    height: 60px;
+    width: 60px;
+    background: rgb(212, 164, 196);;
+    border: 2px solid rgb(212, 164, 196);
+    color: white;
+    border-radius: 40%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+}
+.header
+{
+    display: flex;
+    justify-content: space-around;
+    max-width: 100%;
+    align-items: center;
+    text-align: center;
+    padding-top: 1rem;
+
+}
+.cabecalho-link
+{
+    display: flex;
+    gap: 3rem;
+    font-weight: 500;
+    cursor: pointer;
+}
+.cabecalho-link a {
+    color: black;
+    font-size: 15px;
+    text-decoration-line: none;
+}
+li {
+    list-style-type: none;
+  }
+.cabecalho-link li :hover
+{
+    background-color: rgb(212, 164, 196);
+    color: white;
+    border-radius: 50px;
+    transition: 0.3s all;
+    padding: 20px;
+    width: 200px;
+}
